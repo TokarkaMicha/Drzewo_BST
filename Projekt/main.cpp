@@ -15,7 +15,7 @@ void wyswietlMenu() {
     cout << "7. Zapisz drzewo do pliku tekstowego\n";
     cout << "8. Wczytaj liczby z pliku tekstowego\n";
     cout << "9. Zapisz drzewo binarnie\n";
-    cout << "10. Wczytaj drzewko binarnie\n";
+    cout << "10. Wczytaj Drzewo binarnie\n";
     cout << "0. Wyjscie\n";
     cout << "Wybierz opcje: ";
 }
