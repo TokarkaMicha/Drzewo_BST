@@ -1,6 +1,6 @@
 #ifndef MENEDZERPLIKOW_H
 #define MENEDZERPLIKOW_H
-
+//hej
 #include "BST.h"
 #include <string>
 
