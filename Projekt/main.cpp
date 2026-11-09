@@ -2,13 +2,12 @@
 #include "BST.h"
 #include "MenedzerPlikow.h"
 
-// Użycie przestrzeni nazw std
 using namespace std;
-// Funkcja wyświetlająca menu
+
 void wyswietlMenu() {
-    cout << "\n--- MENU DRZEWA BST ---\n";
-    cout << "1. Dodaj element\n";
-    cout << "2. Usun element\n";
+    cout << "\n--- Menu Drzewa BST ---\n";
+    cout << "1. Dodajesz element\n";
+    cout << "2. Usuniesz element\n";
     cout << "3. Usun cale drzewo\n";
     cout << "4. Szukaj drogi do elementu\n";
     cout << "5. Wyswietl drzewo graficznie\n";
@@ -20,7 +19,7 @@ void wyswietlMenu() {
     cout << "0. Wyjscie\n";
     cout << "Wybierz opcje: ";
 }
-// Główna funkcja programu
+
 int main() {
     BST drzewo;
     int opcja;
